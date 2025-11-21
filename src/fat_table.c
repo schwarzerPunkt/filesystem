@@ -1,3 +1,5 @@
+// ASSUMPTION: LITTLE ENDIAN ARCHITECTURE - see notes
+
 #include "fat_table.h"
 #include <string.h>
 
