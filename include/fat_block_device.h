@@ -3,7 +3,7 @@
 
 #include <stdint.h>
 
-// block device interface: abstraction from the underlying storage device
+// block device interface: abstraction from underlying storage device
 
 typedef struct {
     int(*read_sectors)(void *device, uint32_t sector, uint32_t count, void *buffer);
