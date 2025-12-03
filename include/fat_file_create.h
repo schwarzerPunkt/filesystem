@@ -18,7 +18,7 @@ fat_error_t fat_create_directory_entries(fat_volume_t *volume,
                                          cluster_t file_cluster, 
                                          uint8_t attributes);
 
-fat_error_t fat_create(fat_volume_t *volume, const char *path,  uint9_t attributes, 
+fat_error_t fat_create(fat_volume_t *volume, const char *path,  uint8_t attributes, 
                        fat_file_t **file);
     
 #endif
